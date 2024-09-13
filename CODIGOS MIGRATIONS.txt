@@ -1,0 +1,13 @@
+// Remover ultima migration:
+
+* dotnet ef migrations remove
+
+
+// Criar migration 
+
+* dotnet ef migrations add "NomeDaMigration"
+
+
+// Aplicar migrations e atualizar BD
+
+* dotnet ef database update
