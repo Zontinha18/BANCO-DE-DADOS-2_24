@@ -2,7 +2,7 @@
 
 namespace AtividadeOrm.Models
 {
-    public class MydbContext:DbContext
+    public class MyDbContext:DbContext
     {
         public MydbContext(DbContextOptions< MydbContext> options):base(options) { }
 
